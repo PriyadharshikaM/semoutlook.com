@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dbms project </title>
+
+    <link rel="stylesheet" href="./styles.css">
+   
+</head>
+
+<body>
+    <div class="head">
+        <div class="top">  <span> <a href="./index.html" class="abc"> HOME </a>  </span> </div>
+        <div class="top"> <span>  <a href="./about.html" class="abc"> ABOUT </a> </span></div>
+        <div class="top"> <span>  <a href="./help.html" class="abc"> HELP </a>  </span> </div>
+        <div class="top"> <span>  <a href="./contact.html" class="abc"> CONTACT  </a>  </span> </div>
+        <div class="top" > <span> <a href="./menu.html" class="abc" > MESSAGE </a>  </span></div>
+        </div>
+
+        <div class="container">
+        <form action="connect.php" method="post">
+                   <h1> SEMESTER OUTLOOK </h1>
+        <div class="mainbox">   <p class="text"></p>
+                       <h2> STUDENT INFORMATION </h2>
+
+                    <div class="subbox"> <p> NAME </p>
+                    <input type="text" id="nameid" name="nameis" class="sol"> </div> <BR> 
+           
+                    <div class="subbox">  <P> ROLL NO  </P>
+                    <input type="text" id="roll" name="roll" class="sol">  </div> <BR>
+           
+                    <div class="subbox">  <P> YEAR </P>
+                    <input type="text" id="year" required name="year" class="sol"> </div> <BR> 
+           
+                    <div class="subbox"> <p> SECTION  </p> 
+                    <input type="text" id="section" required name="section" class="sol">  </div> <BR>
+           
+                    <div class="subbox"> <p>DEPARTMENT</p>
+                    <input type="text" id="dept"  name="dept" required class="sol"> </div> <BR> <br>
+         
+        </div>
+     
+         <div class="mainbox"> 
+                     <h2>SUBJECT DETAILS </h2> 
+                
+                      <div class="subbox">   <p> SUBJECT NAME</p>
+                      <input type="text" id="subname" required name="subname"></div> <br>
+                
+                      <div class="subbox"> <p>SUBJECT CODE </p> 
+                      <input type="text" id="subcode" required name="subcode"></div> <br>
+
+                      <div class="subbox"> <p>TEACHER NAME</p> 
+                     <input type="text" id="tname" required name="tecname"></div> <br>
+
+                      <div class="subbox"> <p> ON A SCALE OF 5</p>
+                      <input type="text" id="rate" required name="rate"> </div> <br> <br>
+            
+    </div>
+       
+
+        <div  class="mainbox">
+                      <h2> PAPER EXAMINATION </h2>
+        <div class="ctbox">
+        <label for="ct"> CLASSTEST-NUMBER </label> <br>
+
+        <span>I</span> <input type="radio" name="ct" value="1" id="ct">   
+        <span>II</span> <input type="radio" name="ct" value="2" id="ct">   
+        <span>III</span> <input type="radio" name="ct" value="3" id="ct">  
+        
+        </div>
+        <br>
+        
+                           
+            
+        <div  class="mainbox">
+
+            <br>
+            <div class="subboxx">
+            <label for="seca"> SECTION A </label> <br>
+            <li><label for="tqa">TOUGH QUESTION</label>
+            <input type="text" id="tqa" required name="tqa"> </li> <br> 
+            <li><label for="eqa">&nbsp;EASY QUESTION </label>
+            <input type="text" id="eqa" required name="eqa"> </li> <BR> </div>
+
+                 
+            <div class="subboxx">
+            <label for="secb"> SECTION B</label> <br>
+            <li><label for="tqb">TOUGH QUESTION</label>
+            <input type="text" id="tqb" required name="tqb"></li> <BR> 
+            <li><label for="eqc">EASY QUESTION</label>
+            <input type="text" id="eqb" required name="eqb"> </li><BR> </div>
+
+            <div class="subboxx">
+            <label for="secc">SECTION C</label> <br>
+            <li><label for="tqc">TOUGH QUESTION</label>
+            <input type="text" id="tqc" required name="tqc"></li><BR>
+            <li><label for="eqc">EASY QUESTION</label>
+            <input type="text" id="eqc" required name="eqc"></li><BR> </div>
+    
+</div>    
+
+
+<div  class="mainbox">
+                      <div> <h2> STUDENTS FIELD-OF-VISION </h2>
+ 
+
+                              <div class="yes" > UNIT I </div > 
+            <li>  <label for="itone">INTERESTED TOPIC</label>
+            <input type="text" id="itone" required name="itone"> </li> <BR>
+            <li>  <label for="ntone">NOT INTERESTED TOPIC</label>
+            <input type="text" id="ntone" required name="ntone"> </li>
+
+                               <div class="yes"> UNIT II </div >
+            <li>  <label for="ittwo">INTERESTED TOPIC</label>
+            <input type="text" id="ittwo" required name="ittwo">  </li> <br>
+            <li>  <label for="nttwo">NOT INTERESTED TOPIC</label>
+            <input type="text" id="nttwo" required name="nttwo"> </li>
+
+                               <div class="yes " > UNIT III </div >
+            <li>  <label for="itthree">INTERESTED TOPIC</label>
+            <input type="text" id="itthree" required name="itthree"> </li> <BR>
+            <li>  <label for="ntthree">NOT INTERESTED TOPIC</label>
+            <input type="text" id="ntthree" required name="ntthree"> </li>
+        
+        
+                             <div class="yes"> UNIT IV </div >
+             <li> <label for="itfour">INTERESTED TOPIC</label>
+            <input type="text" id="itfour" required name="itfour">  </li> <BR>
+            <li>  <label for="ntfour">NOT INTERESTED TOPIC</label>
+            <input type="text" id="ntfour" required name="ntfour"> </li>
+         
+                             <div class="yes"> UNIT V </div > 
+            <li>  <label for="itfive">INTERESTED TOPIC</label>
+             <input type="text" id="itfive" required name="itfive"> </li>  <BR>
+            <li>  <label for="ntfive">NOT INTERESTED TOPIC</label>
+            <input type="text" id="ntfive" required name="ntfive"> </li> </div>
+
+         <br>
+         </div>
+
+
+
+                             <input type="submit"  class="button"/>
+    
+</form>
+</div>
+
+</body>
+</html>
